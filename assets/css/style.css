@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 60px 120px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid rgba(128, 128, 128, 0.399);
+    padding: 5px 10px;
+}
+table tr td:nth-child(2),
+table tr td:nth-child(3)        {
+    text-align: center;
+}
+.account{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.account a{
+    color: black;
+}
+.account img{
+    margin: 5px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .profile_info{
+    margin: 1em;
+    text-align: right; width: 100%;
+}
+.header .profile_foto{
+    border: 2px solid black; 
+    padding: 5px; 
+    margin: 5px;
+}
+.header h3.title{
+    font-weight: normal;
+    margin: 8px;
+}
