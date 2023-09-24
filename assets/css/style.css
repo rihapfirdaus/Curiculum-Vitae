@@ -14,7 +14,7 @@ table, th, td {
     padding: 5px 10px;
 }
 table tr td:nth-child(2),
-table tr td:nth-child(3)        {
+table tr td:nth-child(3){
     text-align: center;
 }
 .account{
@@ -45,4 +45,34 @@ table tr td:nth-child(3)        {
 .header h3.title{
     font-weight: normal;
     margin: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: small;
+    }
+    body{
+        width: 100%;
+        padding: 1em;
+    }
+    h1{
+        font-size: x-large;
+    }
+    h3{
+        font-size: medium;
+    }
+    .account img{
+        margin: 0 2px;
+        width: 20px;
+    }
+    .account p, .account p a{
+        margin: 0px;
+        padding: 0px;
+    }
+    .header .profile_foto{
+        border: 2px solid black; 
+        padding: 5px; 
+        width: 150px;
+        margin: 5px;
+    }
 }
