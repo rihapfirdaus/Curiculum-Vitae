@@ -37,17 +37,18 @@ table tr td:nth-child(3){
     margin: 1em;
     text-align: right; width: 100%;
 }
-.header .profile_foto{
+.header .profile_foto img{
     border: 2px solid black; 
     padding: 5px; 
     margin: 5px;
+    width: 256px;
 }
 .header h3.title{
     font-weight: normal;
     margin: 8px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 787px) {
     *{
         font-size: small;
     }
@@ -56,10 +57,10 @@ table tr td:nth-child(3){
         padding: 1em;
     }
     h1{
-        font-size: x-large;
+        font-size: large;
     }
     h3{
-        font-size: medium;
+        font-size: small;
     }
     .account img{
         margin: 0 2px;
@@ -69,10 +70,10 @@ table tr td:nth-child(3){
         margin: 0px;
         padding: 0px;
     }
-    .header .profile_foto{
+    .header .profile_foto img{
+        width: 150px;
         border: 2px solid black; 
         padding: 5px; 
-        width: 150px;
         margin: 5px;
     }
 }
