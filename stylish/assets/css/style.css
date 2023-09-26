@@ -134,3 +134,109 @@ section.right{
         display: unset;
     }
 }
+
+@media only screen and (max-width: 960px) {
+    
+section.left{
+    padding: 0;
+    width: 40%;
+    background-color: rgb(34, 27, 57);
+    text-align: center;
+    float: left;
+}
+section.right{
+    padding: 0;
+    float: right;
+    width: 60%;
+}
+.profile_foto img{
+    width: 90px;
+    border-radius: 100%;
+    border: 1.8px solid #fff;
+    padding: 1.5px;
+}
+.profile_info{
+    padding: 10px;
+    color: white;
+}
+.profile_info h1{
+    font-size: small;
+}
+.profile_info h3{
+    margin: 5px 0;
+    font-size: smaller;
+    font-weight: normal;
+}
+.profile_detail{
+    padding: 20px 10px;
+    color: #fff;
+    text-align: justify;
+}
+.profile_detail p{
+    font-size: xx-small;
+}
+.profile_account{
+    padding: 20px 10px;
+}
+
+.profile_account .account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_account .account p{
+    font-size: xx-small;
+}
+.profile_account .account i{
+    color: #fff;
+    font-size: 16px;
+    margin: 5px;
+}
+.profile_account .account{
+    color: #fff;
+    text-decoration: none;
+}
+
+.education, .course, .skill{
+    margin: 10px;
+}
+.education h3, .course h3, .skill h3{
+    font-size: smaller;
+    margin-bottom: 5px;
+}
+
+.education table{
+    width: 100%;
+}
+
+.education tr th{
+    font-size: larger;
+}
+.education table td, .education table th{
+    padding: 2px 3px;
+    border: 2px solid rgba(201, 198, 198, 0.376);
+    font-size: xx-small;
+}
+
+.education table tr td:nth-child(2),
+.education table tr td:nth-child(3){
+    text-align: center;
+}
+
+.course ol{
+    margin-left: 20px;
+    text-align: justify;
+}
+.course ol li{
+    font-size: xx-small;
+}
+
+.skill .skill_list{
+    display: unset;
+}
+
+.skill .skill_list img{
+    height: 20px;
+}
+
+}
