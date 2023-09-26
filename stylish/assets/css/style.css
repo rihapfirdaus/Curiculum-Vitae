@@ -143,11 +143,19 @@ section.left{
     background-color: rgb(34, 27, 57);
     text-align: center;
     float: left;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
 }
 section.right{
     padding: 0;
     float: right;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
 }
 .profile_foto img{
     width: 90px;
@@ -237,6 +245,7 @@ section.right{
 
 .skill .skill_list img{
     height: 20px;
+    margin: 5px;
 }
 
 }
